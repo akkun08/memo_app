@@ -34,7 +34,7 @@ export const store = createStore({
 
     remove: (state, obj) => {
       for (let i = 0; i < state.memo.length; i++) {
-        const ob = state.memo[1];
+        const ob = state.memo[i];
         if (
           ob.title == obj.title &&
           ob.content == obj.content &&
