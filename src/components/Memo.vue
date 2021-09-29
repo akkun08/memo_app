@@ -42,18 +42,8 @@
     </ul>
     <hr />
     <div>
-      <span
-        style="display: inline-block"
-        class="btn btn-secondary mr-2"
-        @click="prev"
-        >&lt; prev</span
-      >
-      <span
-        style="display: inline-block"
-        class="btn btn-secondary ml-2"
-        @click="next"
-        >next &gt;</span
-      >
+      <span class="btn btn-secondary mr-2" @click="prev">&lt; prev</span>
+      <span class="btn btn-secondary ml-2" @click="next">next &gt;</span>
     </div>
   </section>
 </template>
